@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: /${{ github.event.repository.name }}'
+          BASE_PATH: /github-pages-test2/'
         run: |
           npm run build
           touch build/.nojekyll
